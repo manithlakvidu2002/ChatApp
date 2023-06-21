@@ -10,19 +10,19 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: DAFFFB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogingFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9FCAE0; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogingFormController">
    <children>
-      <ImageView fitHeight="92.0" fitWidth="90.0" layoutX="251.0" layoutY="108.0">
+      <ImageView fitHeight="118.0" fitWidth="119.0" layoutX="237.0" layoutY="104.0">
          <image>
             <Image url="@../assest/man.png" />
          </image>
       </ImageView>
-      <Text layoutX="175.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat Application" wrappingWidth="250.13671875">
+      <Text layoutX="177.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let's go to Chat!" wrappingWidth="250.13671875">
          <font>
             <Font name="Arial Black" size="25.0" />
          </font>
       </Text>
-      <TextField layoutX="177.0" layoutY="257.0" prefHeight="43.0" prefWidth="238.0" promptText="User Name">
+      <TextField layoutX="177.0" layoutY="257.0" prefHeight="43.0" prefWidth="238.0" promptText="User Name" style="-fx-background-radius: 10;">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
