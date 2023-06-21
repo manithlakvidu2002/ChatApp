@@ -22,13 +22,16 @@
             <Font name="Arial Black" size="25.0" />
          </font>
       </Text>
-      <TextField fx:id="Txt_Enter_Name" layoutX="177.0" layoutY="257.0" onAction="#Txt_name_on_action" prefHeight="43.0" prefWidth="238.0" promptText="User Name" style="-fx-background-radius: 10;">
+      <TextField fx:id="Txt_Enter_Name" focusTraversable="false" layoutX="177.0" layoutY="257.0" onAction="#Txt_name_on_action" prefHeight="43.0" prefWidth="238.0" promptText="User Name" style="-fx-background-radius: 10;">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
          <cursor>
             <Cursor fx:constant="DEFAULT" />
          </cursor>
+         <font>
+            <Font size="16.0" />
+         </font>
       </TextField>
    </children>
 </AnchorPane>
