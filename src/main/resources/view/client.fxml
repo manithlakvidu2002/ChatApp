@@ -14,11 +14,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="634.0" prefWidth="389.0" style="-fx-background-color: #859398;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientController">
+<AnchorPane prefHeight="634.0" prefWidth="389.0" style="-fx-background-color: #9FCAE0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientController">
     <children>
         <AnchorPane prefHeight="70.0" prefWidth="389.0" style="-fx-background-color: #1C1D1C;">
             <children>
-                <Label fx:id="lbl_name" layoutX="90.0" layoutY="17.0" prefHeight="36.0" prefWidth="209.0" text="Imasha Liyanage" textFill="WHITE">
+                <Label fx:id="lbl_name" layoutX="90.0" layoutY="17.0" prefHeight="36.0" prefWidth="209.0" text="Manith Lakvidu" textFill="WHITE">
                     <font>
                         <Font name="Comic Sans MS" size="24.0" />
                     </font>
@@ -33,7 +33,7 @@
                 </ImageView>
                 <ImageView fitHeight="61.0" fitWidth="46.0" layoutX="18.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../assest/User (2).png" />
+                        <Image url="@../assest/User%20(2).png" />
                     </image>
                 </ImageView>
             </children>
