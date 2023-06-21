@@ -66,4 +66,7 @@ public class ClientController {
 
     public void tong_smile(MouseEvent mouseEvent) {
     }
+
+    public void btn_logout_On_action(MouseEvent mouseEvent) {
+    }
 }
