@@ -10,7 +10,7 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
 
-        ServerSocket serverSocket = new ServerSocket(4002);
+        ServerSocket serverSocket = new ServerSocket(4050);
 
         Socket accept;
 
