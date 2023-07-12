@@ -31,6 +31,11 @@
             <Font name="Arial Black" size="25.0" />
          </font>
       </Text>
+      <Text fill="WHITE" layoutX="154.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@ CopyRight Manith Lakvidu" wrappingWidth="215.13671559095383">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
       <TextField fx:id="Txt_Enter_Name" focusTraversable="false" layoutX="143.0" layoutY="255.0" onAction="#Txt_name_on_action" prefHeight="43.0" prefWidth="238.0" promptText="User Name" style="-fx-background-radius: 10;">
          <opaqueInsets>
             <Insets />
