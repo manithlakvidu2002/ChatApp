@@ -16,7 +16,12 @@
 
 <AnchorPane prefHeight="634.0" prefWidth="389.0" style="-fx-background-color: #9FCAE0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientController">
     <children>
-        <AnchorPane prefHeight="70.0" prefWidth="389.0" style="-fx-background-color: #1C1D1C;">
+      <ImageView fitHeight="634.0" fitWidth="389.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/WhatsApp%20Image%202023-07-11%20at%2020.51.23.jpg" />
+         </image>
+      </ImageView>
+        <AnchorPane prefHeight="70.0" prefWidth="389.0" style="-fx-background-color: #6d927a;">
             <children>
                 <Label fx:id="lbl_name" layoutX="90.0" layoutY="17.0" prefHeight="36.0" prefWidth="209.0" text="Manith Lakvidu" textFill="WHITE">
                     <font>
@@ -55,17 +60,17 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <ImageView fitHeight="35.0" fitWidth="27.0" layoutX="302.0" layoutY="554.0" onMouseClicked="#btn_cam_on_action" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="35.0" fitWidth="27.0" layoutX="308.0" layoutY="554.0" onMouseClicked="#btn_cam_on_action" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../assest/cam.png" />
+                <Image url="@../assest/camera.png" />
             </image>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
         </ImageView>
-        <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="335.0" layoutY="552.0" onMouseClicked="#btn_massage_send_on_action" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="342.0" layoutY="554.0" onMouseClicked="#btn_massage_send_on_action" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../assest/send1.png" />
+                <Image url="@../assest/sent.png" />
             </image>
             <cursor>
                 <Cursor fx:constant="HAND" />
