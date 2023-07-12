@@ -18,7 +18,8 @@
     <children>
       <ImageView fitHeight="634.0" fitWidth="389.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../assest/WhatsApp%20Image%202023-07-11%20at%2020.51.23.jpg" />
+            <Image url="@../assest/WhatsApp Image 2023-07-11 at 20.51.23.jpg" />
+             
          </image>
       </ImageView>
         <AnchorPane prefHeight="70.0" prefWidth="389.0" style="-fx-background-color: #6d927a;">
